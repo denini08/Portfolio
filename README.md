@@ -40,15 +40,15 @@ $ yarn install
 
 This project was bootstrapped with Create React App so it contains some React Scripts.
 
-##### Start
+1. Start
 
 Start the development server using `yarn start` and opens [localhost:3000](http://localhost:3000/).
 
-##### Build
+2. Build
 
 Build the project using `yarn build` and follow the instructions. The build artifacts will be stored in the **build** directory.
 
-##### Test
+3. Test
 
 Test the project using `yarn test` to tun the Jasmine tests. It doesn't include the **src/index** root component.
 
@@ -56,20 +56,21 @@ Test the project using `yarn test` to tun the Jasmine tests. It doesn't include 
 
 Some tools are necessarily to the flow of development.
 
-##### Insomnia
+* Insomnia
 
 Use [Insomnia](https://insomnia.rest/) to test future request on the application.
 
-##### Convert Ico
+* Convert Ico
 
 Use [Convert Ico](https://convertico.com/) to convert normal images into _ico_ images.
 
-##### Quick Mockup
+* Quick Mockup
 
 Use [Quick Mockup](https://jdittrich.github.io/quickMockup/) to visualize and edit the mockup present at **mockup/mockup.html**.
 
 #### Included
 
+```
 ├── public/ # Static files
 │ ├── assets/ # Assets
 │ └── index.html # Html template
@@ -81,6 +82,7 @@ Use [Quick Mockup](https://jdittrich.github.io/quickMockup/) to visualize and ed
 └── package.json
 │
 └── mockup/
+```
 
 #### Documentation
 
