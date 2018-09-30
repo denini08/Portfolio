@@ -25,7 +25,7 @@
 ```shell
 # Clone this repo
 
-$ git clone ... portfolio
+$ git clone https://github.com/Sphinxs/Portfolio.git portfolio
 
 # Go to the directory
 
