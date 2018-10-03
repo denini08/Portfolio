@@ -14,26 +14,44 @@ import Match from "../Match/Match";
 
 import Navigation from "../Navigation/Navigation";
 
+import {config} from "dotenv";
+
+config()
+
 class App extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      social: [
+        {title: 'linkedin', url: '', key: 1},
+        {title: 'github', url: '', key: 2},
+        {title: 'medium', url: '', key: 3}
+      ]
+    }
+  }
+
   render() {
+    console.log(process.env)
+
     return (
-      <BrowserRouter>
-        <div>
-          <Navigation />
+        <BrowserRouter>
+          <div>
+            <Navigation social={this.state.social}/>
 
-          <Switch>
-            <Route path="/" exact component={Home} />
+            <Switch>
+              <Route path="/" exact component={Home} />
 
-            <Route path="/home" exact component={Home} />
+              <Route path="/home" component={Home} />
 
-            <Route path="/contact" component={Contact} />
+              <Route path="/contact" component={Contact} />
 
-            <Route path="/blog" component={Blog} />
+              <Route path="/blog" component={Blog} />
 
-            <Route component={Match} />
-          </Switch>
-        </div>
-      </BrowserRouter>
+              <Route component={Match} />
+            </Switch>
+          </div>
+        </BrowserRouter>
     );
   }
 }

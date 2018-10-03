@@ -80,8 +80,6 @@ Use [Quick Mockup](https://jdittrich.github.io/quickMockup/) to visualize and ed
 │ ├── index.js
 │
 └── package.json
-│
-└── mockup/
 ```
 
 #### Documentation

@@ -9,5 +9,6 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 2fr 1fr;
-  background: red;
+  background-image: radial-gradient(circle, #D7D7D7, #D7D7D7 1px, #FFF 1px, #FFF);
+  background-size: 28px 28px;
 }
