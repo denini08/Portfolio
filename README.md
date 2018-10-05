@@ -1,14 +1,12 @@
 ### Portfolio
 
-:steam_locomotive: My minimalist portfolio built using React. It contains a home, contact and blog page.
+:steam_locomotive: Portfolio built using React. It contains a home, contact and blog page.
 
 #### Contents
 
 - [Installation](#Installation)
 
 - [Usage](#Usage)
-
-- [Tools](#Tools)
 
 - [Included](#Included)
 
@@ -17,8 +15,6 @@
 - [Learn](#Learn)
 
 - [Creators](Creators)
-
-- License
 
 #### Installation
 
@@ -51,22 +47,6 @@ Build the project using `yarn build` and follow the instructions. The build arti
 3. Test
 
 Test the project using `yarn test` to tun the Jasmine tests. It doesn't include the **src/index** root component.
-
-#### Tools
-
-Some tools are necessarily to the flow of development.
-
-* Insomnia
-
-Use [Insomnia](https://insomnia.rest/) to test future request on the application.
-
-* Convert Ico
-
-Use [Convert Ico](https://convertico.com/) to convert normal images into _ico_ images.
-
-* Quick Mockup
-
-Use [Quick Mockup](https://jdittrich.github.io/quickMockup/) to visualize and edit the mockup present at **mockup/mockup.html**.
 
 #### Included
 

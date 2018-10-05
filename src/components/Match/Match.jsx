@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 // Rendered when the Switch doesn't find a certain page
 

@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 export class Navigation extends Component {
   constructor(props) {
@@ -15,13 +15,13 @@ export class Navigation extends Component {
   
   render(props) {
     return (
-      <div className="nav-container">
-        <nav className="nav-menu">
-          <NavLink to="/">Home</NavLink>
+      <div className='nav-container'>
+        <nav className='nav-menu'>
+          <NavLink to='/'>Home</NavLink>
 
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to='/contact'>Contact</NavLink>
 
-          <NavLink to="/blog">Blog</NavLink>
+          <NavLink to='/blog'>Blog</NavLink>
         </nav>
 
         <nav>

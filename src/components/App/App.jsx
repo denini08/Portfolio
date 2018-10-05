@@ -1,59 +1,54 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import "./App.css";
+import { connect } from 'react-redux';
 
-import Home from "../Home/Home";
+import './App.css';
 
-import Contact from "../Contact/Contact";
+import Home from '../Home/Home';
 
-import Blog from "../Blog/Blog";
+import Contact from '../Contact/Contact';
 
-import Match from "../Match/Match";
+import Blog from '../Blog/Blog';
 
-import Navigation from "../Navigation/Navigation";
+import Match from '../Match/Match';
 
-import {config} from "dotenv";
+import Navigation from '../Navigation/Navigation';
 
-config()
+// import { config } from 'dotenv';
+
+// config()
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      social: [
-        {title: 'linkedin', url: '', key: 1},
-        {title: 'github', url: '', key: 2},
-        {title: 'medium', url: '', key: 3}
-      ]
-    }
-  }
-
   render() {
-    console.log(process.env)
-
     return (
-        <BrowserRouter>
-          <div>
-            <Navigation social={this.state.social}/>
+      <BrowserRouter>
+        <div>
+          <Navigation social={this.props.profile.social}/>
 
-            <Switch>
-              <Route path="/" exact component={Home} />
+          <Switch>
+            <Route path='/' exact component={Home} />
 
-              <Route path="/home" component={Home} />
+            <Route path='/home' component={Home} />
 
-              <Route path="/contact" component={Contact} />
+            <Route path='/contact' component={Contact} />
 
-              <Route path="/blog" component={Blog} />
+            <Route path='/blog' component={Blog} />
 
-              <Route component={Match} />
-            </Switch>
-          </div>
-        </BrowserRouter>
+            <Route component={Match} />
+          </Switch>
+        </div>
+      </BrowserRouter>
     );
   }
 }
 
-export default App;
+const mapStateToProps = state => ({
+  profile: state.profile,
+})
+
+const mapActionsToProps = state => ({
+});
+
+export default connect(mapStateToProps, mapActionsToProps)(App);
