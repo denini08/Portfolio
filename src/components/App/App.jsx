@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import { connect } from 'react-redux';
-
 import './App.css';
 
 import Home from '../Home/Home';
@@ -16,15 +14,19 @@ import Match from '../Match/Match';
 
 import Navigation from '../Navigation/Navigation';
 
-// import { config } from 'dotenv';
+import { connect } from 'react-redux';
 
-// config()
+import { config } from 'dotenv';
+
+config()
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <div>
+          {JSON.stringify(this.props)}
+          
           <Navigation social={this.props.profile.social}/>
 
           <Switch>
@@ -45,10 +47,7 @@ class App extends Component {
 }
 
 const mapStateToProps = state => ({
-  profile: state.profile,
+  profile: state.profile
 })
 
-const mapActionsToProps = state => ({
-});
-
-export default connect(mapStateToProps, mapActionsToProps)(App);
+export default connect(mapStateToProps)(App);

@@ -4,9 +4,9 @@ export class Blog extends Component {
   render() {
     return (
       <div>
-          <p>
-            Blog
-          </p>
+        <p>
+          Blog
+        </p>
       </div>
   );
   }

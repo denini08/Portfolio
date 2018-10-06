@@ -4,9 +4,9 @@ export class Contact extends Component {
   render() {
     return (
       <div>
-          <p>
-            Contact
-          </p>
+        <p>
+          Contact
+        </p>
       </div>
   );
   }

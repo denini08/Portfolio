@@ -9,11 +9,11 @@ export class Navigation extends Component {
     this.handleSocial()
   }
 
-  handleSocial = props => {
+  handleSocial = () => {
     return this.props.social.map(({title, url, key}) => <a key={key} href={url}>{title}</a>)
   }
   
-  render(props) {
+  render() {
     return (
       <div className='nav-container'>
         <nav className='nav-menu'>

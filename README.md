@@ -1,6 +1,6 @@
 ### Portfolio
 
-:steam_locomotive: Portfolio built using React. It contains a home, contact and blog page.
+:steam_locomotive: Portfolio built using React and Redux. It contains a home, contact and blog page.
 
 #### Contents
 
@@ -11,8 +11,6 @@
 - [Included](#Included)
 
 - [Documentation](#Documentation)
-
-- [Learn](#Learn)
 
 - [Creators](Creators)
 
@@ -59,16 +57,14 @@ Test the project using `yarn test` to tun the Jasmine tests. It doesn't include 
 │ ├── components/ # Container source
 │ ├── index.js
 │
+├── mockups
+│
 └── package.json
 ```
 
 #### Documentation
 
-Access [Create React App](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md) to get a view of the project.
-
-#### Learn
-
-If you don't know React, React Router or Redux read the [Developer Cheat Sheets](http://www.developer-cheatsheets.com/react-router) or watch some course of [Dan Abramov](https://github.com/gaearon) the creator of React and Redux at [Egg Head](https://egghead.io/instructors/dan-abramov). You can also read the [Dev Hints Es 6](https://devhints.io/es6) style cheat if you're not familiar with Es 6.
+Access [Create React App](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md) to get a view of the project using Create React App.
 
 #### Creators
 
