@@ -1,6 +1,6 @@
 ### Portfolio
 
-:steam_locomotive: Portfolio built using React and Redux. It contains a home, contact and blog page.
+:steam_locomotive: Portfolio built containing a home, contact and blog page.
 
 #### Contents
 
@@ -9,8 +9,6 @@
 - [Usage](#Usage)
 
 - [Included](#Included)
-
-- [Documentation](#Documentation)
 
 - [Creators](Creators)
 
@@ -44,27 +42,27 @@ Build the project using `yarn build` and follow the instructions. The build arti
 
 3. Test
 
-Test the project using `yarn test` to tun the Jasmine tests. It doesn't include the **src/index** root component.
+Test the project using `yarn test` to run Jasmine' test. It doesn't include the **src/index** root component.
+
+3. Eject
+
+Eject the Create React App using `yarn eject` and open **package**.
 
 #### Included
 
 ```
 ├── public/ # Static files
-│ ├── assets/ # Assets
-│ └── index.html # Html template
+│ ├── assets/
+│ └── index.html
 │
-├── src/ # Project root
-│ ├── components/ # Container source
+├── src/ # Project source
+│ ├── components/
 │ ├── index.js
 │
 ├── mockups
 │
 └── package.json
 ```
-
-#### Documentation
-
-Access [Create React App](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md) to get a view of the project using Create React App.
 
 #### Creators
 
