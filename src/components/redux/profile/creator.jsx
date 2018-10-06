@@ -1,8 +1,8 @@
-import { UPDATE_PROFILE } from './actions';
+import { PROFILE_UPDATE } from './actions';
 
 const profileUpdate = newProfile => { // Array o objects (title, url, key)
   return {
-    type: UPDATE_PROFILE,
+    type: PROFILE_UPDATE,
     profile: {
       social: newProfile
     }
