@@ -1,6 +1,6 @@
 ### Portfolio
 
-> Portfolio built containing a home, contact and blog page.
+:ticket: Portfolio built containing a home, contact and blog page.
 
 #### Contents
 
@@ -9,6 +9,8 @@
 - [Usage](#Usage)
 
 - [Included](#Included)
+
+- [Learn](#Learn)
 
 - [Creators](Creators)
 
@@ -63,6 +65,30 @@ Eject the Create React App using `yarn eject` and open **package**.
 │
 └── package.json
 ```
+
+# Learn
+
+Resources I have used to learn React and I recommend to you.
+
+| Courses                                                | Lang |
+| ------------------------------------------------------ | ---- |
+| [Egg Head](https://egghead.io/browse/frameworks/react) | En   |
+| [Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0)    | En   |
+
+| Docs / Books                                                   | Lang |
+| -------------------------------------------------------------- | ---- |
+| [React](https://reactjs.org/docs/getting-started.html)         | En   |
+| [React Notes](https://books.goalkicker.com/ReactJSBook/)       | En   |
+| [Manning React](https://www.manning.com/books/react-in-action) | Br   |
+
+| Cheatsheet                                           | Lang |
+| ---------------------------------------------------- | ---- |
+| [React Cheat](http://www.developer-cheatsheets.com/) | En   |
+
+| Podcasts                                                                               | Lang |
+| -------------------------------------------------------------------------------------- | ---- |
+| [Syntax React](https://syntax.fm/show/066/the-react-episode/)                          | En   |
+| [Hipster Tech React](https://hipsters.tech/react-o-framework-onipresente-hipsters-66/) | Br   |
 
 #### Creators
 
