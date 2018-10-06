@@ -14,8 +14,6 @@ import Match from '../Match/Match';
 
 import Navigation from '../Navigation/Navigation';
 
-import { connect } from 'react-redux';
-
 import { config } from 'dotenv';
 
 config()
@@ -25,9 +23,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div>
-          {JSON.stringify(this.props)}
-          
-          <Navigation social={this.props.profile.social}/>
+          <Navigation />
 
           <Switch>
             <Route path='/' exact component={Home} />
@@ -46,8 +42,4 @@ class App extends Component {
   }
 }
 
-const mapStateToProps = state => ({
-  profile: state.profile
-})
-
-export default connect(mapStateToProps)(App);
+export default App;

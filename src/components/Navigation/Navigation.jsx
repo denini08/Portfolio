@@ -2,15 +2,15 @@ import React, { Component } from 'react';
 
 import { NavLink } from 'react-router-dom';
 
-export class Navigation extends Component {
-  constructor(props) {
-    super(props)
+import { connect } from 'react-redux';
 
-    this.handleSocial()
+export class Navigation extends Component {
+  handleSocial = () => {
+    return this.props.profile.social.map(({title, url, key}) => <a key={key} href={url}>{title}</a>)
   }
 
-  handleSocial = () => {
-    return this.props.social.map(({title, url, key}) => <a key={key} href={url}>{title}</a>)
+  componentDidMount = () => {
+    this.handleSocial()
   }
   
   render() {
@@ -32,4 +32,8 @@ export class Navigation extends Component {
   }
 }
 
-export default Navigation;
+const mapStateToProps = state => ({
+  profile: state.profile
+})
+
+export default connect(mapStateToProps)(Navigation);
