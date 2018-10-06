@@ -1,6 +1,6 @@
 ### Portfolio
 
-:steam_locomotive: Portfolio built containing a home, contact and blog page.
+> Portfolio built containing a home, contact and blog page.
 
 #### Contents
 
