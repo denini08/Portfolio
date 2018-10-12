@@ -1,6 +1,6 @@
 ### Portfolio
 
-:ticket: Portfolio built containing a home, contact and blog page.
+:ticket: Portfolio containing a home, contact and blog page.
 
 #### Contents
 
@@ -31,8 +31,6 @@ $ yarn install
 ```
 
 #### Usage
-
-This project was bootstrapped with Create React App so it contains some React Scripts.
 
 1. Start
 
@@ -66,32 +64,16 @@ Eject the Create React App using `yarn eject` and open **package**.
 └── package.json
 ```
 
-# Learn
+#### Learn
 
-Resources I have used to learn React and I recommend to you.
+1. [React](https://reactjs.org/) - Moshfegh Hamedani course on [Youtube](https://www.youtube.com/watch?v=Ke90Tje7VS0)
 
-| Courses                                                | Lang |
-| ------------------------------------------------------ | ---- |
-| [Egg Head](https://egghead.io/browse/frameworks/react) | En   |
-| [Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0)    | En   |
+2. [Redux](https://redux.js.org/) - Learn Code Academy course  on [Youtube](https://www.youtube.com/playlist?list=PLoYCgNOIyGADILc3iUJzygCqC8Tt3bRXt)
 
-| Docs / Books                                                   | Lang |
-| -------------------------------------------------------------- | ---- |
-| [React](https://reactjs.org/docs/getting-started.html)         | En   |
-| [React Notes](https://books.goalkicker.com/ReactJSBook/)       | En   |
-| [Manning React](https://www.manning.com/books/react-in-action) | Br   |
+3. [React Router](https://reacttraining.com/react-router/) - [Developer Cheatsheets](http://www.developer-cheatsheets.com/react-router)
 
-| Cheatsheet                                           | Lang |
-| ---------------------------------------------------- | ---- |
-| [React Cheat](http://www.developer-cheatsheets.com/) | En   |
+#### Creator
 
-| Podcasts                                                                               | Lang |
-| -------------------------------------------------------------------------------------- | ---- |
-| [Syntax React](https://syntax.fm/show/066/the-react-episode/)                          | En   |
-| [Hipster Tech React](https://hipsters.tech/react-o-framework-onipresente-hipsters-66/) | Br   |
+Walter
 
-#### Creators
-
-Walter H.
-
-- [Github](https://github.com/Sphinxs).
+- [Github](https://github.com/Sphinxs)

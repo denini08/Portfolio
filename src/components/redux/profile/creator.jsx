@@ -1,14 +1,20 @@
-import { PROFILE_UPDATE } from './actions';
+import { PROFILE_ADD_SOCIAL, PROFILE_API_GET } from './actions';
 
-const profileUpdate = newProfile => { // Array o objects (title, url, key)
+const profileAddSocial = social => { // Object
   return {
-    type: PROFILE_UPDATE,
-    profile: {
-      social: newProfile
-    }
+    type: PROFILE_ADD_SOCIAL,
+    social
+  }
+}
+
+const profileApiGet = request => { // Object
+  return {
+    type: PROFILE_API_GET,
+    request
   }
 }
 
 export {
-  profileUpdate
+  profileAddSocial,
+  profileApiGet
 }

@@ -7,7 +7,7 @@ export class NavigationView extends Component {
     return (
       <div className='nav-container'>
         <nav className='nav-menu'>
-          <NavLink to='/'>Home</NavLink>
+          <NavLink to='/home'>Home</NavLink>
 
           <NavLink to='/contact'>Contact</NavLink>
 
