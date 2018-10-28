@@ -6,15 +6,15 @@ import { config } from 'dotenv';
 
 import './app.css';
 
-import Home from './pages/home/home';
+import Home from './containers/home/home';
 
-import Contact from './pages/contact/contact';
+import Contact from './containers/contact/contact';
 
-import Blog from './pages/blog/blog';
+import Blog from './containers/blog/blog';
 
-import Match from './pages/match/match';
+import Match from './containers/match/match';
 
-import Navigation from './pages/navigation/navigation';
+import Navigation from './containers/navigation/navigation';
 
 config()
 

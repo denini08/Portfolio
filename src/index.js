@@ -4,13 +4,23 @@ import ReactDOM from 'react-dom';
 
 import App from './app';
 
-import store from './components/redux/store';
+import { store, persistor } from './components/redux/store';
 
-import { Provider } from 'react-redux';
+import { HashRouter } from 'react-router-dom';
+
+import { PersistGate } from 'redux-persist/integration/react';
+
+import {
+  Provider
+} from 'react-redux';
 
 ReactDOM.render(
   <Provider store={store}>
-    <App/>
+    <PersistGate loading={null} persistor={persistor}>
+      <HashRouter>
+        <App/>
+      </HashRouter>
+    </PersistGate>
   </Provider>,
   document.getElementById('root')
 );
