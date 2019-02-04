@@ -1,14 +1,12 @@
 ### Portfolio
 
-:ticket: Portfolio containing a home, contact and blog page.
+> Portfolio write in React
 
 #### Contents
 
 - [Installation](#Installation)
 
 - [Usage](#Usage)
-
-- [Included](#Included)
 
 - [Learn](#Learn)
 
@@ -17,17 +15,14 @@
 #### Installation
 
 ```shell
-# Clone this repo
+# Clone this repository
+git clone https://github.com/Sphinxs/Portfolio.git portfolio
 
-$ git clone https://github.com/Sphinxs/Portfolio.git portfolio
-
-# Go to the directory
-
-$ cd portfolio
+# Open repository
+cd portfolio
 
 # Install the dependencies
-
-$ yarn install
+yarn install
 ```
 
 #### Usage
@@ -48,32 +43,10 @@ Test the project using `yarn test` to run Jasmine' test. It doesn't include the 
 
 Eject the Create React App using `yarn eject` and open **package**.
 
-#### Included
-
-```
-├── public/ # Static files
-│ ├── assets/
-│ └── index.html
-│
-├── src/ # Project source
-│ ├── components/
-│ ├── index.js
-│
-├── mockups
-│
-└── package.json
-```
-
 #### Learn
 
-1. [React](https://reactjs.org/) - Moshfegh Hamedani course on [Youtube](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+React Router, React, Redux: [Developer Cheatsheets](http://www.developer-cheatsheets.com) or [Dev Hint](https://devhints.io/react)
 
-2. [Redux](https://redux.js.org/) - Learn Code Academy course  on [Youtube](https://www.youtube.com/playlist?list=PLoYCgNOIyGADILc3iUJzygCqC8Tt3bRXt)
+#### Credits
 
-3. [React Router](https://reacttraining.com/react-router/) - [Developer Cheatsheets](http://www.developer-cheatsheets.com/react-router)
-
-#### Creator
-
-Walter
-
-- [Github](https://github.com/Sphinxs)
+[Github.com/Sphinxs](https://github.com/Sphinxs)
