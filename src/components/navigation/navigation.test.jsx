@@ -7,7 +7,7 @@ import BrowserRouter from 'react-router-dom';
 import Navigation from './navigation';
 
 it('renders without crashing', () => {
-  const cache = () => {
+  const generateNavigationComponent = () => {
     return (
       <BrowserRouter>
         <Navigation />
@@ -17,7 +17,7 @@ it('renders without crashing', () => {
 
   const div = document.createElement('div');
 
-  ReactDOM.render(cache, div);
+  ReactDOM.render(generateNavigationComponent, div);
 
   ReactDOM.unmountComponentAtNode(div);
 });

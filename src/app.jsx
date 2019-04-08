@@ -6,15 +6,13 @@ import { config } from 'dotenv';
 
 import './app.css';
 
-import Home from './containers/home/home';
+import Home from './components/home/home';
 
-import Contact from './containers/contact/contact';
+import Contact from './components/contact/contact';
 
-import Blog from './containers/blog/blog';
+import Match from './components/match/match';
 
-import Match from './containers/match/match';
-
-import Navigation from './containers/navigation/navigation';
+import Navigation from './components/navigation/navigation';
 
 config()
 
@@ -28,9 +26,7 @@ export default class App extends Component {
           <Switch>
             <Route path='/' exact component={Home} />
             
-            {/* <Route path='/contact' component={Contact} /> */}
-
-            {/* <Route path='/blog' component={Blog} /> */}
+            <Route path='/contact' exact component={Contact} />
 
             <Route component={Match} />
           </Switch>
