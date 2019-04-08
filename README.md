@@ -1,51 +1,58 @@
 ### Portfolio
 
-> Portfolio write in React
+Portfolio written in HTML 5, CSS 3, Javascript and React
 
 #### Contents
 
-- [Installation](#Installation)
+- [Dependencies](#Dependencies)
 
 - [Usage](#Usage)
 
-- [Learn](#Learn)
-
 - [Creators](Creators)
 
-#### Installation
+#### Dependencies
 
-```shell
-# Clone this repository
-git clone https://github.com/Sphinxs/Portfolio.git portfolio
+Clone this repository:
 
-# Open repository
-cd portfolio
+```sh
+git clone https://github.com/Sphinxs/Portfolio.git
+```
 
-# Install the dependencies
+Open the repository:
+
+```sh
+cd Portfolio
+```
+
+Install the dependencies:
+
+```sh
 yarn install
+```
+
+Update the dependencies:
+
+```sh
+yarn upgrade package@version
 ```
 
 #### Usage
 
-1. Start
+- Start
 
-Start the development server using `yarn start` and opens [localhost:3000](http://localhost:3000/).
+Start the development server `yarn start`, and opens [localhost:3000](http://localhost:3000/).
 
-2. Build
+- Build
 
-Build the project using `yarn build` and follow the instructions. The build artifacts will be stored in the **build** directory.
+Build the project `yarn build`, and follow the instructions shown in the terminal. The build artifacts will be stored at **build** directory.
 
-3. Test
+- Test
 
-Test the project using `yarn test` to run Jasmine' test. It doesn't include the **src/index** root component.
+Test the project, before commit, `yarn test`. The Jasmine module its used to test the application.
 
-3. Eject
+- Eject
 
-Eject the Create React App using `yarn eject` and open **package**.
-
-#### Learn
-
-React Router, React, Redux: [Developer Cheatsheets](http://www.developer-cheatsheets.com) or [Dev Hint](https://devhints.io/react)
+Eject the dependencies and settings, `yarn eject`, and opens [package.json](./package.json).
 
 #### Credits
 

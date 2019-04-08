@@ -1,16 +1,16 @@
-# Dependencies
+# dependencies
 /node_modules
 
-# Testing
+# test
 /coverage
 
-# Production
+# build
 /build
 
-# Misc
+# misc
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Editor
+# editor
 .vscode
