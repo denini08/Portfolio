@@ -15,32 +15,32 @@ Portfolio written in HTML 5, CSS 3, Javascript and React
 Clone this repository:
 
 ```sh
-git clone https://github.com/Sphinxs/Portfolio.git
+$ git clone https://github.com/Sphinxs/Portfolio.git
 ```
 
 Open the repository:
 
 ```sh
-cd Portfolio
+$ cd Portfolio
 ```
 
 Install the dependencies:
 
 ```sh
-yarn install
+$ yarn install
 ```
 
 Update the dependencies:
 
 ```sh
-yarn upgrade package@version
+$ yarn upgrade package@version
 ```
 
 #### Usage
 
 - Start
 
-Start the development server `yarn start`, and opens [localhost:3000](http://localhost:3000/).
+Start the development server `yarn start`, and open [localhost:3000](http://localhost:3000/).
 
 - Build
 
@@ -48,7 +48,7 @@ Build the project `yarn build`, and follow the instructions shown in the termina
 
 - Test
 
-Test the project, before commit, `yarn test`. The Jasmine module its used to test the application.
+Test the project, `yarn test`. The Jasmine module its used to test the application.
 
 - Eject
 

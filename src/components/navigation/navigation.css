@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Letter Gothic';
+    src: url('../../assets/home/font/letter\ gothic\ std.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Letter Gothic Bold Slanted';
+    src: url('../../assets/home/font/letter\ gothic\ std\ bold\ slanted.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Letter Gothic Bold';
+    src: url('../../assets/home/font/letter\ gothic\ std\ slanted.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nav-container {
+    position: relative;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 10px;
+}
+
+.nav-logo {
+    content: url('../../assets/home/logo/logo.png');
+    width: 40px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.nav-menu {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav-link, .nav-resume {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link {
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fff;
+    font-family: 'Letter Gothic';
+    font-weight: 700;
+    font-size: .8em;
+    box-sizing: border-box;
+    margin: 0px 10px;
+}
+
+.nav-resume {
+    font-family: 'Letter Gothic';
+    font-weight: 800;
+    font-size: .8em;
+    text-shadow: 0px 0px 10px #0a0909;
+}
