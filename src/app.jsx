@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import { config } from 'dotenv';
 
@@ -17,15 +17,13 @@ config()
 export default class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <Switch>
-          <Route path='/' exact component={Home} />
+      <Switch>
+        <Route path='/' exact component={Home} />
 
-          <Route path='/contact' exact component={Contact} />
+        <Route path='/contact' exact component={Contact} />
 
-          <Route component={Match} />
-        </Switch>
-      </BrowserRouter>
+        <Route component={Match} />
+      </Switch>
     );
   }
 }

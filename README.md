@@ -1,5 +1,7 @@
 ### Portfolio
 
+--- 
+
 Portfolio written in HTML 5, CSS 3, Javascript and React
 
 #### Contents
