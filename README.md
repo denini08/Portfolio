@@ -1,5 +1,7 @@
 ### Portfolio
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![CircleCI](https://circleci.com/gh/Sphinxs/Portfolio/tree/master.svg?style=svg)](https://circleci.com/gh/Sphinxs/Portfolio/tree/master) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/sphinxs/portfolio/master.svg)
+
 --- 
 
 Portfolio written in HTML 5, CSS 3, Javascript and React
