@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import { Route, Switch } from 'react-router-dom';
 
-import { config } from 'dotenv';
-
 import './app.css';
 
 import Home from './components/home/home';
@@ -11,8 +9,6 @@ import Home from './components/home/home';
 import Contact from './components/contact/contact';
 
 import Match from './components/match/match';
-
-config()
 
 export default class App extends Component {
   render() {
