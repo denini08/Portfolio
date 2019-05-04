@@ -1,11 +1,11 @@
 # dependencies
-/node_modules
+node_modules
 
 # test
-/coverage
+coverage
 
 # build
-/build
+build
 
 # misc
 npm-debug.log*
