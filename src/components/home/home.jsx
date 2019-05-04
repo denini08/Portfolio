@@ -23,7 +23,7 @@ export default class Home extends Component {
               </h2>
             </div>
 
-            <div class='box-footer'>
+            <div className='box-footer'>
               <div className='box-social'>
                 <a href='https://www.linkedin.com/in/walter-hr' target='_blank' rel='noopener noreferrer'>
                   <FaLinkedinIn/>
