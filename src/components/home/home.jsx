@@ -26,11 +26,11 @@ export default class Home extends Component {
             <div className='box-footer'>
               <div className='box-social'>
                 <a href='https://www.linkedin.com/in/walter-hr' target='_blank' rel='noopener noreferrer'>
-                  <FaLinkedinIn/>
+                  <FaLinkedinIn/> <span>Linkedin</span>
                 </a>
 
                 <a href='https://github.com/Sphinxs' target='_blank' rel='noopener noreferrer'>
-                  <FaGithubAlt/>
+                  <FaGithubAlt/> <span>Github</span>
                 </a>
               </div>
             </div>

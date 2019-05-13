@@ -16,7 +16,7 @@ export default class Navigation extends Component {
           {/* <NavLink className='nav-link' to='/contact'>Contact</NavLink> */}
         </nav>
 
-        <a href='' className='nav-resume'>Resume</a>
+        <a href='#' className='nav-resume'>Resume</a>
       </div>
     )
   }

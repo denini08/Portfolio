@@ -12,6 +12,9 @@
     font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding');
+
+
 @font-face {
     font-family: 'Letter Gothic Bold';
     src: url('../../assets/home/font/letter\ gothic\ std\ slanted.otf') format('woff');
@@ -51,10 +54,24 @@
 .box-content {
     width: auto;
     position: absolute;
+    max-width: 25vw;
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
-    box-sizing: border-box
+    box-sizing: border-box;
+}
+
+.box-content, .box-social a {
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+@media (max-width: 950px) {
+    .box-content {
+        max-width: 65vw;
+    }
 }
 
 .content-title {
@@ -63,25 +80,22 @@
     font-size: 4.5em;
 }
 
-/* .content-title strong {
-    font-family: 'Letter Gothic Bold';
-} */
-
 .content-description {
     color: #fff;
-    font-family: 'Letter Gothic';
+    font-family: 'Nanum Gothic Coding', monospace;
     font-weight: 500;
+    line-height: 25px;
     font-size: 1em;
     text-align: justify;
     letter-spacing: 1.2px;
-    word-spacing: 5px;
+    word-spacing: 3.5px;
     text-shadow: 0px 0px 10px #000; 
 }
 
 .box-footer {
     width: 100%;
     height: auto;
-    min-height: 6vh;
+    min-height: 8vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -90,32 +104,29 @@
 
 .box-social {
     height: 100%;
-    min-width: 16%;
+    width: 26vw;
+    max-width: auto;
     display: inline-flex;
     justify-content: space-evenly;
     align-items: center;
+    font-family: 'Letter Gothic';
+    text-align: left;
+    font-size: .9em;
 }
 
 .box-social a {
+    display: flex;
+    align-items: center;
     color: #fff;
     text-decoration: none;
-    font-size: 1.3em;
-    transition-property: color;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0s;
 }
 
-.box-social a:nth-child(1):hover {
-    color: #94abb0;
-}
-
-.box-social a:nth-child(2):hover {
-    color: #a0382d;
+.box-social a span {
+    padding-left: 20%;
 }
 
 @media (max-width: 850px) {
     .box-social {
-        min-width: 22%;
+        width: 50vw;
     }
 }
