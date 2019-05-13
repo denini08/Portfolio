@@ -1,22 +1,22 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 
-import './navigation.css';
+import "./navigation.css";
 
 export default class Navigation extends Component {
   render () {
     return (
-      <div className='nav-container'>
-        <img className='nav-logo' alt='Logo'/>
+      <div className="nav-container">
+        <img className="nav-logo" alt="Logo"/>
 
-        <nav className='nav-menu'>
-          <NavLink className='nav-link' to='/'>Home</NavLink>
+        <nav className="nav-menu">
+          <NavLink className="nav-link" to="/">Home</NavLink>
 
-          {/* <NavLink className='nav-link' to='/contact'>Contact</NavLink> */}
+          {/* <NavLink className="nav-link" to="/contact">Contact</NavLink> */}
         </nav>
 
-        <a href='#' className='nav-resume'>Resume</a>
+        <a href={null} className="nav-resume">Resume</a>
       </div>
     )
   }
