@@ -8,13 +8,13 @@ Portfolio written in HTML 5, CSS 3, Javascript and React
 
 #### Contents
 
-- [Dependencies](#Dependencies)
+- [Setup](#Setup)
 
 - [Usage](#Usage)
 
 - [Creators](Creators)
 
-#### Dependencies
+#### Setup
 
 Clone this repository:
 

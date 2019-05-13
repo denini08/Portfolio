@@ -5,9 +5,11 @@ import './match.css';
 export default class Match extends Component {
   render() {
     return (
-      <p>
-        Page not found
-      </p>
+      <div className='match'>
+        <p>
+          We didn't find the artwork that you was researching
+        </p>
+      </div>
     );
   }
 }
