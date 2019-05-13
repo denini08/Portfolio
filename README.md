@@ -1,6 +1,6 @@
 ### Portfolio
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![CircleCI](https://circleci.com/gh/Sphinxs/Portfolio/tree/master.svg?style=svg)](https://circleci.com/gh/Sphinxs/Portfolio/tree/master) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/sphinxs/portfolio/master.svg)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![CircleCI](https://circleci.com/gh/Sphinxs/Portfolio/tree/master.svg?style=svg)](https://circleci.com/gh/Sphinxs/Portfolio/tree/master) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/sphinxs/portfolio/master.svg) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/439e7fdb3e7d488a901223d56598b90f)](https://www.codacy.com/app/Sphinxs/Portfolio?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Sphinxs/Portfolio&amp;utm_campaign=Badge_Grade)
 
 --- 
 
