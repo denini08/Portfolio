@@ -12,6 +12,8 @@ Portfolio written in HTML 5, CSS 3, Javascript and React
 
 - [Usage](#Usage)
 
+- [Image](#Usage)
+  
 - [Creators](Creators)
 
 #### Setup
@@ -57,6 +59,20 @@ Test the project, `yarn test`. The Jasmine module its used to test the applicati
 - Eject
 
 Eject the dependencies and settings, `yarn eject`, and opens [package.json](./package.json).
+
+#### Image
+
+Compress the images through Image Magick.
+
+```sh
+# install
+$ sudo install install imagemagick
+
+# compress
+$ convert -quality 80 input.jpg output.jpg
+```
+
+Reference [here](https://ubuntuforums.org/showthread.php?t=1720675). Alternative to [PNG](https://github.com/Kjuly/pngcrush).
 
 #### Credits
 
