@@ -10,7 +10,7 @@ export default class Home extends Component {
   render() {
     return (
         <div className="box">
-          <div className="box-background">
+          <div className="box-background">            
             <Navigation />
 
             <div className="box-content">
