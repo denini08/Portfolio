@@ -120,9 +120,10 @@
     border-right: solid 2px #fff;
     border-top: solid 2px #fff;
     position: absolute;
-    z-index: 1;
+    z-index: 0;
     bottom: -10%;
     left: -9%;
+    pointer-events: none;
 }
 
 .box-social {
@@ -142,6 +143,8 @@
     align-items: center;
     color: #fff;
     text-decoration: none;
+    z-index: 1;
+    pointer-events: all;
 }
 
 .box-social a span {
