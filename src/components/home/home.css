@@ -5,22 +5,7 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: "Letter Gothic Bold Slanted";
-    src: url("../../assets/home/font/letter\ gothic\ std\ bold\ slanted.otf") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
 @import url("https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding");
-
-
-@font-face {
-    font-family: "Letter Gothic Bold";
-    src: url("../../assets/home/font/letter\ gothic\ std\ slanted.otf") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
 
 /* .box:after {
     content: '';
@@ -117,8 +102,8 @@
     content: '';
     width: 34vw;
     height: 20%;
-    border-right: solid 2px #fff;
-    border-top: solid 2px #fff;
+    border-right: solid 1.5px #fff;
+    border-top: solid 1.5px #fff;
     position: absolute;
     z-index: 0;
     bottom: -10%;

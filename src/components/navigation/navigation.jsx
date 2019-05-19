@@ -18,6 +18,6 @@ export default class Navigation extends Component {
 
         <a href={null} className="nav-resume">Resume</a>
       </div>
-    )
+    );
   }
 }

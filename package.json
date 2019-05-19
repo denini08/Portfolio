@@ -3,6 +3,8 @@
   "name": "portfolio",
   "version": "0.3.0",
   "private": true,
+  "protocol": "https",
+  "webpackProtocol": "--https",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "package": "^1.0.1",
